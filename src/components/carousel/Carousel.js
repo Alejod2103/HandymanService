@@ -29,7 +29,7 @@ export const Carousel = () => {
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style={{width: '100%',  maxWidth: '900px'}} >
                             <h5 class="text-primary text-uppercase mb-md-3">Le ayudamos a ahorrar en internet, telefonia, cable etc</h5>
-                            <h1 class="display-3 text-white mb-md-4">Asistencia en el hogar!!</h1>
+                            <h1 class="display-3 text-white mb-md-4">Asistencia en el hogar!</h1>
                             <a href="null" class="btn btn-primary">Contactanos hoy!</a>
                         </div>
                     </div>
