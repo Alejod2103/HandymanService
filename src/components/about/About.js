@@ -22,11 +22,33 @@ const About = () => {
                     <p>Obtenga un mayor ahorro en sus servicios de internet, telefonia, cable, luz, agua, pago de taxes, pago de IRS, asistencia financera personal y empresarial, ayuda con el pago de bills y facturas. </p>
                     <div class="d-flex align-items-center pt-4">
                         <a href="null" class="btn btn-primary mr-5">Llame Hoy! <FaPhoneAlt /></a>
+                        <button type="button" class="btn-play" data-toggle="modal"
+                            data-src="https://youtu.be/gwKjvJBl5xw" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
                     </div>
                 </div>
             </div>
         </div>
       </div>
+
+
+      <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://youtu.be/32dGIHCzbfE" id="video" title='yupp' allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </>
   )
 }
