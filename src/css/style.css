@@ -9879,6 +9879,10 @@
       padding: 5px 12px !important;
     }
   }
+
+  .contact-info-item{
+    background-color: #2a57a0;
+  }
   
   @media (min-width: 992px) {
     .contact-info .contact-info-item {
