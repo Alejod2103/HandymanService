@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components';
 import '../../css/style.css';
 
 function Topbar() {
@@ -75,8 +74,4 @@ function Topbar() {
   )
 }
 
-export default Topbar
-
-const LogoContainer = styled.div`
-    position: relative;
-`;
+export default Topbar;
