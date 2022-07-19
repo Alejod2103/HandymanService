@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../css/style.css';
-import { FaBalanceScale, FaCoins, FaCreditCard } from 'react-icons/fa';
+import { FaPhoneAlt } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -21,9 +21,7 @@ const About = () => {
                     <h5 class="text-muted font-weight-normal mb-3">No se preoucupe!, llevamos mas de 25 años dando la mejor asistencia y soluciones tanto personales como empresariales con nuestros servicios de asistencia telefonica inmediata.</h5>
                     <p>Obtenga un mayor ahorro en sus servicios de internet, telefonia, cable, luz, agua, pago de taxes, pago de IRS, asistencia financera personal y empresarial, ayuda con el pago de bills y facturas. </p>
                     <div class="d-flex align-items-center pt-4">
-                        <a href="null" class="btn btn-primary mr-5">asistencia financiera <FaCoins /></a>
-                        <a href="null" class="btn btn-primary mr-5">asistencia legal <FaBalanceScale /></a>
-                        <a href="null" class="btn btn-primary mr-5">Pago de servicios <FaCreditCard /></a>
+                        <a href="null" class="btn btn-primary mr-5">Llame Hoy! <FaPhoneAlt /></a>
                     </div>
                 </div>
             </div>

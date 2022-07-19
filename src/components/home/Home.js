@@ -8,9 +8,9 @@ function Home() {
     <>
       <Carousel />
       
-      <About />
-
       <Info />
+
+      <About />
     </>
   )
 }
