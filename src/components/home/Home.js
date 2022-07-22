@@ -3,7 +3,8 @@ import '../../css/style.css';
 import About from '../about/About.js'
 import { Carousel } from '../carousel/Carousel.js'
 import { Info } from '../info/Info.js'
-import Servicios from '../servicios/Servicios.js'
+import { Team } from '../team/Team';
+
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
       <Carousel />
       <Info />
       <About />
-      <Servicios />
+      <Team />
     </>
   )
 }
