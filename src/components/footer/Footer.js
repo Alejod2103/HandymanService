@@ -29,13 +29,13 @@ const Footer = () => {
 
                         <ul class="social-icon">
 
-                            <li><a href="none" class="social-icon-link bi-youtube"></a></li>
+                            <li><a href="none" class="social-icon-link bi-youtube"><h1 style={{display: 'none'}}>texto invisible</h1></a></li>
 
-                            <li><a href="none" class="social-icon-link bi-whatsapp"></a></li>
+                            <li><a href="none" class="social-icon-link bi-whatsapp"><h1 style={{display: 'none'}} >texto invisible</h1></a></li>
 
-                            <li><a href="none" class="social-icon-link bi-instagram"></a></li>
+                            <li><a href="none" class="social-icon-link bi-instagram"><h1 style={{display: 'none'}} >texto invisible</h1></a></li>
 
-                            <li><a href="none" class="social-icon-link bi-skype"></a></li>
+                            <li><a href="none" class="social-icon-link bi-skype"></a><h1 style={{display: 'none'}} >texto invisible</h1></li>
                         </ul>
                     </div>
 
