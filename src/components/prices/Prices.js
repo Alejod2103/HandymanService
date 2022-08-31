@@ -5,7 +5,7 @@ const Prices = () => {
   return (
     <>
 
-    <section class="pricing1 cid-st2L1NX8yl" id="pricing01-d">
+    <section style={{marginBottom: '-240px'}} class="pricing1 cid-st2L1NX8yl" id="pricing01-d">
         <div class="container-mobile" style={{borderRadius: '25px'}}>
       <div class="row-mobile">
             <Tittleprice><strong>Conoce Nuestros Planes &amp; Precios</strong></Tittleprice>

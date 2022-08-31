@@ -3,7 +3,7 @@ import React from 'react'
 const Stats = () => {
   return (
     <>
-      <div id="services" class="our-services section">
+      <div id="services" class="our-services section" style={{marginBottom: '70px'}}>
     <div class="container">
       <div class="row">
         <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
