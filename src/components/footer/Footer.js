@@ -35,7 +35,7 @@ const Footer = () => {
 
                             <li><a href="none" class="social-icon-link bi-instagram"><h1 style={{display: 'none'}} >texto invisible</h1></a></li>
 
-                            <li><a href="none" class="social-icon-link bi-skype"></a><h1 style={{display: 'none'}} >texto invisible</h1></li>
+                            <li><a href="none" class="social-icon-link bi-skype"><h1 style={{display: 'none'}} >texto invisible</h1></a></li>
                         </ul>
                     </div>
 
