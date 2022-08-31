@@ -28,7 +28,7 @@ const Blog = () => {
                   <li><i class="fa fa-users"></i> 23k views</li>
                 </ul>
                 <a href="/blog/ayuda-energia"><h4>Obtenga ayuda para pagar su estado de cuenta de energía de PG&E</h4></a>
-                <p>Nos encargamos de brindarte ayuda con el pago de los bill de tu cuenta de luz para que no tengas que preocuparte...</p>
+                <p>Problemas por bills altos? Le ayudamos a ahorrar mas en sus facturas de bills de servicios de internet, telefonia, cable, luz, Agua entre otros servicios del hogar.</p>
                 <div class="main-blue-button">
                   <a href="none">Llamar Ahora</a>
                 </div>
