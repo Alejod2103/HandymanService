@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const Topbar = () => {
   return (
@@ -15,19 +14,19 @@ const Topbar = () => {
                     </a>
 
                     <div class="d-lg-none">
-                        <Link to="/" class="bi-person custom-icon me-3"></Link>
+                        <a href="/" class="bi-person custom-icon me-3"><h1 style={{display: 'none'}} >texto invisible</h1></a>
 
-                        <Link to="/" class="bi-bag custom-icon"></Link>
+                        <a href="/" class="bi-bag custom-icon"><h1 style={{display: 'none'}} >texto invisible</h1></a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item">
-                                <Link class="nav-link active" to="/">Home</Link>
+                                <a class="nav-link active" href="/">Home</a>
                             </li>
 
                             <li class="nav-item">
-                                <Link class="nav-link" to="about">Sobre nosotros</Link>
+                                <a class="nav-link" href="/">Sobre nosotros</a>
                             </li>
 
                             <li class="nav-item">
