@@ -1,14 +1,26 @@
-import Topbar from './components/topbar/Topbar.js';
 import './App.css';
-import Home from './components/home/Home.js';
-import Footer from './components/footer/Footer.js';
+import Footer from './components/footer/Footer';
+import Topbar from './components/topbar/Topbar';
+import Homepage from './pages/Homepage';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
 
 function App() {
   return (
     <>
-      <Topbar />
-      <Home />
-      <Footer />
+    <BrowserRouter>
+    <Topbar />
+
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+    </Routes>
+
+    <Footer />    
+    </BrowserRouter>
     </>
   );
 }
